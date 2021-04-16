@@ -8,6 +8,7 @@
         <Brands/>
       </aside>
       <section class="products-area">
+        <Sort/>
         <Products/>
       </section>
     </div>
@@ -18,7 +19,8 @@
 import Header from './page-sections/Header.vue';
 import Panel from './page-sections/Panel.vue';
 import Brands from './components/Filters/Brands.vue';
-import Products from './page-sections/Products.vue'
+import Products from './page-sections/Products.vue';
+import Sort from './components/Sorting/Sort.vue';
 
 
 export default {
@@ -27,7 +29,8 @@ export default {
     Header,
     Panel,
     Brands,
-    Products
+    Products,
+    Sort
   }
 }
 </script>
@@ -67,7 +70,5 @@ export default {
     display: inline-block;
     vertical-align: top;
     width: 975px;
-    padding: 10px 20px;
-    background-color: white;
   }
 </style>

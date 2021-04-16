@@ -28,7 +28,8 @@ export default {
     display: flex;
     align-items: center;
     border-bottom: 1px solid #e4e4e4;
-    padding: 15px 0;
+    background-color: white;
+    padding: 15px 20px;
     position: relative;
   }
   .product-item:last-of-type{
@@ -59,6 +60,6 @@ export default {
     white-space: nowrap;
     position: absolute;
     top: 10px;
-    right: 0;
+    right: 18px;
   }
 </style>
