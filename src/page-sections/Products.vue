@@ -24,6 +24,9 @@ export default {
 </script>
 
 <style scoped>
+  .products-list{
+    margin-bottom: 50px;
+  }
   .product-item{
     display: flex;
     align-items: center;
