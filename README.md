@@ -1,5 +1,17 @@
 # materiel-net-vue
 
+## Project 
+```
+I created a clone of materiel.net using Vue js
+```
+
+## What I learn:
+```
+How to pass props    
+How to set up and use Vuex (store, state, getters, mutations)
+How to create and use mixins
+```
+
 ## Project setup
 ```
 npm install
@@ -10,15 +22,5 @@ npm install
 npm run serve
 ```
 
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
 ### Live Demo
-See application live [here](https://materiel-vue.netlify.app/).
+See application live [here](https://materiel-vue.netlify.app/)
